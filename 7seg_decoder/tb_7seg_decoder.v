@@ -41,7 +41,7 @@ module tb_led_7seg_decoder;
 		// $monitor("benchmark Input:%b, Output:%b\nyour Input:%b, Output:%b", x, a_to_g, x, a_to_g2);
         // if you need print one by one uncomment above and comment below.
         if ( a_to_g == a_to_g2 ) $display("Correct");
-        else $display("Error! x=%b \nyour output:%b\nbenchmark:%b", x, a_to_g, a_to_g2);
+        else $display("Error! x=%b \nyour output:%b\nbenchmark:%b\n", x, a_to_g, a_to_g2);
 
 	end
 
