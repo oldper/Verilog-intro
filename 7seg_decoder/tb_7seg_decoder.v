@@ -8,6 +8,8 @@ module tb_led_7seg_decoder;
 	wire [6:0] a_to_g;
     wire [6:0] a_to_g2;
 
+
+	// This is your uut.
     seg7_decoder uut2(
         .in(x),
         .a_to_g(a_to_g2)
@@ -16,6 +18,7 @@ module tb_led_7seg_decoder;
 
 	// Instantiate the Unit Under Test (UUT)
 	// leg7seg(x(input), a_to_g(output)))
+	// this is the benchmark (original uut)
 	led7seg uut (
 		.x(x), 
 		.a_to_g(a_to_g)
